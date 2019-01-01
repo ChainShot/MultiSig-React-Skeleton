@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.wallet-container {
+    padding: 50px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wallet-container > ul {
+    width: 100%;
+}
+
+.transaction-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.transaction {
+    display:flex;
+    width: 100%;
+}
+
+.transaction > ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.transaction > ul > li {
+    width: 20%;
+}
+
+.transaction > ul > li:first-of-type {
+    width: 40%;
+}
+
+.transaction-container > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.address {
+    min-width: 400px;
+}
+
+.title {
+    font-weight: bold;
+}
